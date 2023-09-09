@@ -130,6 +130,13 @@ p {
 .contenido-principal {
     padding-top: 5rem;
 }
+.listado-productos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.producto:first-child {
+    
+}
 .producto {
     background-color: #037bc0;
 }
